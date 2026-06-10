@@ -35,11 +35,6 @@
 
 ---
 
-## 📊 Prediction Results
-
-![Prediction](assets/prediction.png)
-
----
 
 ## 🚀 Installation
 
