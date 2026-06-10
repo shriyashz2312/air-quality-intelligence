@@ -32,11 +32,6 @@
 - TensorFlow
 - HTML/CSS/JavaScript
 
----
-
-## 📸 Dashboard
-
-![Dashboard](assets/dashboard.png)
 
 ---
 
