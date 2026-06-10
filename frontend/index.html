@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World Air Pollution | AQI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+
+    <h1>WORLD'S AIR POLLUTION</h1>
+    <h2>AIR QUALITY INDEX (AQI)</h2>
+
+    <p class="desc">
+        The Air Quality Index is based on measurement of particulate matter
+        (PM2.5 and PM10), Ozone (O3), Nitrogen Dioxide (NO2),
+        Sulfur Dioxide (SO2) and Carbon Monoxide (CO).
+    </p>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+        <input type="text" id="city" placeholder="Search AQI by city name">
+        <button onclick="searchCity()">Search</button>
+    </div>
+
+    <!-- AQI VISUAL -->
+    <div class="aqi-visual">
+        <h2 id="aqiStatus">GOOD</h2>
+
+        <div class="visual-row">
+            <!-- Thermometer -->
+            <div class="thermo">
+                <div class="thermo-fill" id="thermoFill"></div>
+            </div>
+
+            <!-- Face -->
+            <div class="face" id="faceIcon">😊</div>
+        </div>
+
+        <h3>AQI: <span id="aqiValue">0</span></h3>
+
+        <!-- ✅ ML Cluster -->
+        <h3 id="mlCluster" style="margin-top:15px; color:#00e5ff;">
+            ML Pollution Pattern: --
+        </h3>
+    </div>
+
+    <!-- POLLUTANTS -->
+    <div class="pollution-box">
+        <div>PM2.5: <span id="pm25">--</span></div>
+        <div>PM10: <span id="pm10">--</span></div>
+        <div>NO₂: <span id="no2">--</span></div>
+        <div>SO₂: <span id="so2">--</span></div>
+        <div>CO: <span id="co">--</span></div>
+        <div>O₃: <span id="o3">--</span></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
